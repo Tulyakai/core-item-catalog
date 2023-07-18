@@ -10,19 +10,9 @@ import (
 	"com.ktb.ai.core-item-catalog/graph/model"
 )
 
-// Users is the resolver for the users field.
-func (r *queryResolver) Users(ctx context.Context) ([]*model.User, error) {
-	users := []*model.User{
-		{ID: 1, Username: "john", Email: "john@example.com"},
-		{ID: 2, Username: "jane", Email: "jane@example.com"},
-	}
-
-	return users, nil
-}
-
 // Item is the resolver for the item field.
 func (r *queryResolver) Item(ctx context.Context, id int) (*model.ItemCatalog, error) {
-	item, err := r.GormCatalogRepository.Get(id)
+	item, err := r.GormCatalogRepository.GetCatalogByID(id)
 	if err != nil {
 		return nil, err
 	}

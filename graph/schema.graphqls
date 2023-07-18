@@ -2,12 +2,6 @@
 #
 # https://gqlgen.com/getting-started/
 
-type User {
-  id: Int!
-  username: String!
-  email: String!
-}
-
 type ItemCatalog  {
 	id: Int!
 	price: Float!
@@ -16,6 +10,5 @@ type ItemCatalog  {
 }
 
 type Query {
-  users: [User!]!
   item(id: Int!): ItemCatalog!
 }

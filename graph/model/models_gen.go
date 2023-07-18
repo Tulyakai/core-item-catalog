@@ -8,9 +8,3 @@ type ItemCatalog struct {
 	Name        string  `json:"name"`
 	Description string  `json:"description"`
 }
-
-type User struct {
-	ID       int    `json:"id"`
-	Username string `json:"username"`
-	Email    string `json:"email"`
-}
