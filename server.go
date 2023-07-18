@@ -2,8 +2,8 @@ package main
 
 import (
 	"com.ktb.ai.core-item-catalog/graph"
-	"com.ktb.ai.core-item-catalog/app/config"
-	"com.ktb.ai.core-item-catalog/app/infrastructure/gormrepository"
+	"com.ktb.ai.core-item-catalog/config"
+	"com.ktb.ai.core-item-catalog/infrastructure/gormrepository"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"

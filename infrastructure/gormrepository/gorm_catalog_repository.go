@@ -1,7 +1,7 @@
 package gormrepository
 
 import (
-	"com.ktb.ai.core-item-catalog/app/domain"
+	"com.ktb.ai.core-item-catalog/domain"
 	"gorm.io/gorm"
 )
 

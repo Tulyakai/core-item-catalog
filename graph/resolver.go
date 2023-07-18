@@ -1,6 +1,6 @@
 package graph
 
-import "com.ktb.ai.core-item-catalog/app/infrastructure/gormrepository"
+import "com.ktb.ai.core-item-catalog/infrastructure/gormrepository"
 
 // This file will not be regenerated automatically.
 //
